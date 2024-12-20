@@ -93,6 +93,15 @@
         };
     };
 
+    macros {
+        new_test_macro: new_test_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>;
+            label = "NEW_TEST_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
