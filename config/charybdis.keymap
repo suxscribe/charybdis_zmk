@@ -78,27 +78,6 @@
     combos {
         compatible = "zmk,combos";
 
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <31 28>;
-        };
-
-        left_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <43 44>;
-        };
-
-        right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <44 45>;
-        };
-
-        to-FN {
-            bindings = <&to 9>;
-            key-positions = <41 42>;
-            layers = <0 3 6>;
-        };
-
         to-WIN {
             bindings = <&to 0>;
             key-positions = <50 51>;
@@ -116,14 +95,26 @@
             key-positions = <47 36>;
             layers = <0 3 9>;
         };
-    };
 
-    macros {
-        new_test_macro: new_test_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A>;
-            label = "NEW_TEST_MACRO";
+        to-FN {
+            bindings = <&to 9>;
+            key-positions = <41 42>;
+            layers = <0 3 6>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <31 28>;
+        };
+
+        left_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <43 44>;
+        };
+
+        right_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <44 45>;
         };
     };
 
