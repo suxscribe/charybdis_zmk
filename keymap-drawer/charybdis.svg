@@ -2293,8 +2293,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(84, 217)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">Y</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">LEFT CONTR…</tspan></text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;hml</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LEFT_CONTR…</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">…</tspan>
+</text>
 </g>
 <g transform="translate(140, 203)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2363,8 +2364,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">TAB</text>
-<a href="#NUMBERS">
-<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
+<a href="#GAME-NUM">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">GAME-NUM</tspan></text>
 </a></g>
 <g transform="translate(279, 289) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2377,15 +2378,15 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">LEFT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
-<a href="#NAV-FUN">
-<text x="0" y="24" class="key hold layer-activator">NAV-FUN</text>
+<a href="#GAME-NAV">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">GAME-NAV</tspan></text>
 </a></g>
 <g transform="translate(537, 303) rotate(-30.0)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">ENTER</text>
-<a href="#NUMBERS">
-<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
+<a href="#GAME-NUM">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">GAME-NUM</tspan></text>
 </a></g>
 <g transform="translate(590, 278) rotate(-20.0)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2404,14 +2405,14 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(299, 365) rotate(30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#NAV-FUN">
-<text x="0" y="-4" class="key tap layer-activator">NAV-FUN</text>
+<a href="#GAME-NAV">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 88%">GAME-NAV</tspan></text>
 </a></g>
 <g transform="translate(565, 351) rotate(-30.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#NAV-FUN">
-<text x="0" y="-4" class="key tap layer-activator">NAV-FUN</text>
+<a href="#GAME-NAV">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 88%">GAME-NAV</tspan></text>
 </a></g>
 </g>
 </g>
@@ -2726,10 +2727,9 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="0" dy="-1.2em">(RA(ZMK</tspan><tspan x="0" dy="1.2em">HID</tspan><tspan x="0" dy="1.2em">…</tspan>
 </text>
 </g>
-<g transform="translate(220, 267) rotate(12.0)" class="key trans keypos-48">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<text x="0" y="-4" class="key trans tap">▽</text>
+<g transform="translate(220, 267) rotate(12.0)" class="key held keypos-48">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(279, 289) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3038,10 +3038,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
 </g>
-<g transform="translate(327, 317) rotate(30.0)" class="key trans keypos-50">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<text x="0" y="-4" class="key trans tap">▽</text>
+<g transform="translate(327, 317) rotate(30.0)" class="key held keypos-50">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(537, 303) rotate(-30.0)" class="key trans keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>

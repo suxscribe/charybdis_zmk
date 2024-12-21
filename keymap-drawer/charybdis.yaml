@@ -379,7 +379,7 @@ layers:
   - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - LEFT SHIFT
-  - {t: Y, h: LEFT CONTROL}
+  - '&hml LEFT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
   - {t: X, h: LEFT ALT}
   - {t: C, h: LEFT GUI}
   - {t: V, h: LEFT SHIFT}
@@ -390,14 +390,14 @@ layers:
   - '&hmr RIGHT_ALT (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_PERIOD_AND_GREATER_THAN))'
   - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - {t: RIGHT SHIFT, h: DELETE}
-  - {t: TAB, h: NUMBERS}
+  - {t: TAB, h: GAME-NUM}
   - SPACE
-  - {t: LEFT GUI, h: NAV-FUN}
-  - {t: ENTER, h: NUMBERS}
+  - {t: LEFT GUI, h: GAME-NAV}
+  - {t: ENTER, h: GAME-NUM}
   - BACK SPACE
   - R CLK
-  - NAV-FUN
-  - NAV-FUN
+  - GAME-NAV
+  - GAME-NAV
   GAME-NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -447,7 +447,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - {t: ▽, type: trans}
+  - {type: held}
   - BACK SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -506,7 +506,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - PRINT SCREEN
   - {t: ▽, type: trans}
