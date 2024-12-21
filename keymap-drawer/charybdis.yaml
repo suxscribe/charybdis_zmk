@@ -570,15 +570,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [31, 28]
-  k: CAPS WORD
-- p: [43, 44]
-  k: L CLK
-- p: [44, 45]
-  k: R CLK
-- p: [41, 42]
-  k: {t: FN, h: toggle}
-  l: [QUERTZ, MAC, GAME]
 - p: [50, 51]
   k: {t: QUERTZ, h: toggle}
   l: [MAC, GAME, FN]
@@ -588,3 +579,12 @@ combos:
 - p: [47, 36]
   k: {t: GAME, h: toggle}
   l: [QUERTZ, MAC, FN]
+- p: [41, 42]
+  k: {t: FN, h: toggle}
+  l: [QUERTZ, MAC, GAME]
+- p: [31, 28]
+  k: CAPS WORD
+- p: [43, 44]
+  k: L CLK
+- p: [44, 45]
+  k: R CLK
