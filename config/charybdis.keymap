@@ -33,7 +33,7 @@
     trackball_snipe_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <0 3 6>;
+        layers = <10>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -46,7 +46,7 @@
     trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <0 3 6>;
+        layers = <9>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
@@ -71,9 +71,18 @@
         time-to-live-ms = <750>;
     };
 
-    #define DEF 0
-#define MOD 1
-#define INT 2
+// #define QUERTZ    0
+// #define NUMBERS   1
+// #define NAV-FUN   2
+// #define MAC       3
+// #define MAC-NUM   4
+// #define MAC-NAV   5
+// #define GAME      6
+// #define GAME-NUM  7
+// #define GAME-NAV  8
+// #define SCROLL    9
+// #define SNIPER   10
+// #define FN       11
 
     combos {
         compatible = "zmk,combos";
