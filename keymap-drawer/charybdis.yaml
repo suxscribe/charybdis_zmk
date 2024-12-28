@@ -702,3 +702,5 @@ combos:
   k: L CLK
 - p: [44, 45]
   k: R CLK
+- p: [44, 45, 43]
+  k: M CLK

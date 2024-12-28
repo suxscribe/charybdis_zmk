@@ -71,18 +71,18 @@
         time-to-live-ms = <750>;
     };
 
-// #define QUERTZ    0
-// #define NUMBERS   1
-// #define NAV-FUN   2
-// #define MAC       3
-// #define MAC-NUM   4
-// #define MAC-NAV   5
-// #define GAME      6
-// #define GAME-NUM  7
-// #define GAME-NAV  8
-// #define SCROLL    9
-// #define SNIPER   10
-// #define FN       11
+    // #define QUERTZ    0
+    // #define NUMBERS   1
+    // #define NAV-FUN   2
+    // #define MAC       3
+    // #define MAC-NUM   4
+    // #define MAC-NAV   5
+    // #define GAME      6
+    // #define GAME-NUM  7
+    // #define GAME-NAV  8
+    // #define SCROLL    9
+    // #define SNIPER   10
+    // #define FN       11
 
     combos {
         compatible = "zmk,combos";
@@ -124,6 +124,11 @@
         right_click {
             bindings = <&mkp RCLK>;
             key-positions = <44 45>;
+        };
+
+        midle_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <44 45 43>;
         };
     };
 
