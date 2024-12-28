@@ -704,3 +704,9 @@ combos:
   k: R CLK
 - p: [44, 45, 43]
   k: M CLK
+- p: [40, 39]
+  k: L CLK
+- p: [38, 39]
+  k: R CLK
+- p: [38, 39, 40]
+  k: M CLK

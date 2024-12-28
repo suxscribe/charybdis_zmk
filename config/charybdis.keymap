@@ -116,19 +116,34 @@
             key-positions = <31 28>;
         };
 
-        left_click {
+        rh_leftClick {
             bindings = <&mkp LCLK>;
             key-positions = <43 44>;
         };
 
-        right_click {
+        rh_rightClick {
             bindings = <&mkp RCLK>;
             key-positions = <44 45>;
         };
 
-        midle_click {
+        rh_middleClick {
             bindings = <&mkp MCLK>;
             key-positions = <44 45 43>;
+        };
+
+        lh_leftClick {
+            bindings = <&mkp LCLK>;
+            key-positions = <40 39>;
+        };
+
+        lh_rightClick {
+            bindings = <&mkp RCLK>;
+            key-positions = <38 39>;
+        };
+
+        lh_middleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <38 39 40>;
         };
     };
 
