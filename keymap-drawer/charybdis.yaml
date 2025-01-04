@@ -220,10 +220,10 @@ layers:
   - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - RSHIFT
   - {t: TAB, h: MAC-NUM}
-  - {t: SPACE, h: Sft+ LCTRL}
+  - {t: SPACE, h: Ctl+ LEFT ALT}
   - {t: LEFT GUI, h: MAC-NAV}
   - {t: ENTER, h: MAC-NUM}
-  - {t: BACK SPACE, h: Sft+Gui+ LEFT CONTROL}
+  - {t: BACK SPACE, h: Alt+Gui+ LEFT CONTROL}
   - R CLK
   - L CLK
   - MAC-NAV
