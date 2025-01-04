@@ -223,7 +223,7 @@ layers:
   - {t: SPACE, h: Ctl+ LEFT ALT}
   - {t: LEFT GUI, h: MAC-NAV}
   - {t: ENTER, h: MAC-NUM}
-  - {t: BACK SPACE, h: Alt+Gui+ LEFT CONTROL}
+  - {t: BACK SPACE, h: Alt+Ctl+ LEFT GUI}
   - R CLK
   - L CLK
   - MAC-NAV
