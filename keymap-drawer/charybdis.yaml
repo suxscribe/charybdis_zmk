@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis}
 layers:
   QUERTZ:
   - ESCAPE
@@ -144,11 +145,11 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
   - DEV TOOLS
   - {t: ▽, type: trans}
   - END
@@ -315,11 +316,11 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
   - DEV TOOLS
   - {t: ▽, type: trans}
   - END
@@ -486,11 +487,11 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
   - DEV TOOLS
   - {t: ▽, type: trans}
   - END
